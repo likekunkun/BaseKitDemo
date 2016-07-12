@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  MasonryDemo
+//
+//  Created by macbook on 16/7/8.
+//  Copyright © 2016年 ymq. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#endif
+
+#ifdef __OBJC__
+
+//
+#define UserDefault       [NSUserDefaults standardUserDefaults]
+#define ImageNamed(a)     ([UIImage imageNamed:(a)])
+#define NotificationCenter [NSNotificationCenter defaultCenter]
+
+
+//
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//
+#import "Constants.h"
+#import "Masonry.h"
+
+//
+#define FontSize(a) [UIFont systemFontOfSize:(a)]
+#define ColorWhite [UIColor whiteColor]
+
+#endif

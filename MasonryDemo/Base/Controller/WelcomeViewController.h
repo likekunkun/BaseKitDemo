@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WelcomeViewController.h
 //  MasonryDemo
 //
 //  Created by macbook on 16/6/29.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WelcomeViewController : UIViewController
 
 @end
-
